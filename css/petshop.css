@@ -43,3 +43,60 @@ nav a:hover{
     padding: 0;
     margin-right: 0;
 }
+/* Grupos de elementos diferentes (.classe) */
+.fundo-verde{
+    background-color: #bdff9c;
+}
+
+.conteiner{
+    width: 900px;
+    margin: 0 auto;
+    padding: 56px 0;
+}
+
+.flex-conteiner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex-conteiner .col{
+    width: 430px;
+}
+.produto{
+    width: 235px;
+}
+.produto figure{
+    border: 1px solid #c4c4c4;
+    background-color: #FFF;
+    margin: 0 0 15px 0;
+    /* superior - direita - inferior - esquerda */
+    padding: 0;
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+}
+.produto figure img{
+    vertical-align: middle;
+}
+.texto-centralizado{
+    text-align: center;
+    
+}
+.btn-pata{
+    border: 1px solid #91e467;
+    background-color: #d2fbbd;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.produto .flex-conteiner{
+    width: 43px;
+}
+.flex-conteiner{
+    margin-top: 43px;
+}
